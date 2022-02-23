@@ -6,7 +6,7 @@ body{
     border-left: 5px solid green;
     height: 100px;   
 }
-.text-heder{
+.first-text-heder{
     font-family: 'Yeseva One', cursive;
     padding-left: 20px; 
 }
@@ -27,6 +27,7 @@ h1{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -35,6 +36,30 @@ h1{
 .half-width img{
     width: 70%;
 }
-p{
+.top-bottom-gap{
     padding: 20px 0;
+}
+.second-text-heder{
+    text-align: center;
+}
+.one-third-width{
+    width: 33%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgba(0, 255, 255, 0.089);
+    margin: 10px;
+}
+.one-third-width img{
+    width: 50%;
+}
+.full-develop-area{
+    background-image: url(images/shapes/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    
+}
+.develop-area img{
+    width: 70%;
+    padding-left: 80px;
 }
