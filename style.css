@@ -3,7 +3,7 @@ body{
     margin-left: 5%;
 }
 .v-line{
-    border-left: 5px solid green;
+    border-left: 5px solid rgb(255, 192, 200);
     height: 100px;   
 }
 .first-text-heder{
@@ -13,8 +13,11 @@ body{
 h1{
     font-size: 50px;
 }
-.green-color{
-    color: green;
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.smooth-color{
+    color: rgb(238, 164, 130);
 }
 .link-button{
     text-decoration: none;
@@ -40,6 +43,7 @@ h1{
     padding: 20px 0;
 }
 .second-text-heder{
+    font-family: 'Archivo Black', sans-serif;
     text-align: center;
 }
 .one-third-width{
@@ -62,4 +66,11 @@ h1{
 .develop-area img{
     width: 70%;
     padding-left: 80px;
+}
+footer{
+    font-family: 'Yeseva One', cursive;
+    background-color:black;
+    text-align: center;
+    color: white;
+    padding: 2px;
 }
